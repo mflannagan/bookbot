@@ -35,7 +35,6 @@ def print_report(sorted_dict_list, total_words, path):
         dict = sorted_dict_list[i]
         for i in dict:
             print(f"The '{i}' character was found {dict[i]}")
-        # print(f"The {dict} character was found {}")
     print("--- End Report ---")
 
 def convert_dict_list(dict):
